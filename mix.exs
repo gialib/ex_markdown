@@ -38,7 +38,9 @@ defmodule ExMarkdown.Mixfile do
      files: ["lib", "mix.exs", "README*"],
      maintainers: ["Gialib", "happy"],
      licenses: ["Apache 2.0"],
-     links: %{"GitHub" => "https://github.com/gialib/ex_markdown",
-              "Docs" => "hexdocs.pm/ex_markdown"}]
+     links: %{
+       "GitHub" => "https://github.com/gialib/ex_markdown",
+       ## "Docs" => "hexdocs.pm/ex_markdown"
+     }]
   end
 end
